@@ -1,0 +1,133 @@
+* {
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-image: linear-gradient(rgba(155, 103, 60, 0.45),rgba(155, 103, 60, 0.45)), url("panconsalami.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100%;
+}
+html {
+    height: 100%;
+}
+#header-img {
+   width: 60px;
+   height: 60px;
+   margin-left: 10px;
+}
+
+h1 {
+    margin-top: 0;
+}
+#header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 10%;
+    width: 100%;
+    padding-right: 20px;
+    gap: 15px;
+    background: #2D2424;
+    flex-wrap: nowrap;
+    position: sticky;
+    animation: slide 1s ease;
+    z-index: -1;
+    top: 0px;
+}
+
+.form-con {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+@keyframes slide {
+    from {
+        transform: translateY(-65px);
+    }
+    to {
+        transform: translateY(0px);
+    }
+}
+
+#nav-bar {
+    flex-grow: 1;
+    text-align: end;
+}
+
+#nav-link {
+    font-size: 20px;
+    margin: 25px;
+    text-decoration: none;
+}
+
+.input {
+    border-radius: 5px;
+    border-color: transparent;
+    color: black;
+    outline: none;
+    margin-top: 13px;
+}
+#video {
+    display: block;
+    width: 600px;
+    height: 338px;
+    border: none;
+    border-radius: 2%;
+    margin: auto;
+}
+.offers {
+    display: flex;
+    justify-content: center;
+}
+.offer-con {
+    text-align: center;
+    margin: 30px;
+    width: 250px;
+    min-width: 250px;
+    height: 300px;
+    min-height: 300px;
+    background: #FAF0E6;
+    border-radius: 5%;
+    border: #240750 2px solid;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.offer-con > h2,p {
+    color: black;
+    margin-top: 24px;
+}
+
+@media (max-width: 710px) {
+    #header {
+        flex-direction: column;
+        height: auto;
+        padding: 10px;
+        gap: 10px;
+    }
+
+    #nav-bar {
+        text-align: center;
+    }
+
+    #nav-link {
+        display: block;
+        margin: 10px 0;
+    }
+
+    #video {
+        width: 40%;
+        height: auto;
+    }
+
+    .offer-con {
+        width: 90%;
+        margin: 20px auto;
+    }
+}
