@@ -1,1 +1,1 @@
-An html and css project just to show how to create a navigation bar which can be used in many websites.
+This project showcases a basic HTML and CSS layout for a sandwich-selling website, with a focus on creating a reusable navigation bar design. The design is simple, clean, and responsive, suitable for use in a variety of sandwich shop or food-related websites.
