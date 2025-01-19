@@ -6,7 +6,7 @@
     padding: 0;
 }
 body {
-    background-image: linear-gradient(rgba(155, 103, 60, 0.45),rgba(155, 103, 60, 0.45)), url("panconsalami.jpg");
+    background-image: linear-gradient(rgba(155, 103, 60, 0.45),rgba(155, 103, 60, 0.45)), url("sandwich.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 100%;
@@ -76,7 +76,7 @@ h1 {
 #video {
     display: block;
     width: 600px;
-    height: 338px;
+    height: 317px;
     border: none;
     border-radius: 2%;
     margin: auto;
